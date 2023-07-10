@@ -64,4 +64,17 @@ public class Card
     }
 
 
+    public boolean isHigher(Card otherCard)
+    {
+        if (this.number < otherCard.getNumber()) {
+            return false;
+        }
+
+        else
+        {
+            return true;
+        }
+    }
+
+
 }
